@@ -13,6 +13,11 @@ plugins {
 
 android {
     ndkVersion = "26.1.10909125"
+    externalNativeBuild {
+        cmake {
+            version = "3.31.6"
+        }
+    }
     compileSdk = 36
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
