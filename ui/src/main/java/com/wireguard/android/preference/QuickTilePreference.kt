@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.wireguard.android.preference
+package com.mifawg.forkwireguard.app.preference
 
 import android.app.StatusBarManager
 import android.content.ComponentName
@@ -14,8 +14,8 @@ import android.util.AttributeSet
 import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.preference.Preference
-import com.wireguard.android.QuickTileService
-import com.wireguard.android.R
+import com.mifawg.forkwireguard.app.QuickTileService
+import com.mifawg.forkwireguard.app.R
 
 @RequiresApi(Build.VERSION_CODES.TIRAMISU)
 class QuickTilePreference(context: Context, attrs: AttributeSet?) : Preference(context, attrs) {

@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.wireguard.android.util;
+package com.mifawg.forkwireguard.app.util;
 
 import android.content.Context;
 import android.util.Log;
 
-import com.wireguard.android.util.RootShell.RootShellException.Reason;
+import com.mifawg.forkwireguard.app.util.RootShell.RootShellException.Reason;
 import com.wireguard.util.NonNullForAll;
 
 import java.io.BufferedReader;

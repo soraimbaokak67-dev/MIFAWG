@@ -2,7 +2,7 @@
  * Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.wireguard.android.fragment
+package com.mifawg.forkwireguard.app.fragment
 
 import android.Manifest
 import android.app.Dialog
@@ -20,12 +20,12 @@ import androidx.fragment.app.setFragmentResult
 import androidx.lifecycle.lifecycleScope
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.tabs.TabLayout
-import com.wireguard.android.BR
-import com.wireguard.android.R
-import com.wireguard.android.databinding.AppListDialogFragmentBinding
-import com.wireguard.android.databinding.ObservableKeyedArrayList
-import com.wireguard.android.model.ApplicationData
-import com.wireguard.android.util.ErrorMessages
+import com.mifawg.forkwireguard.app.BR
+import com.mifawg.forkwireguard.app.R
+import com.mifawg.forkwireguard.app.databinding.AppListDialogFragmentBinding
+import com.mifawg.forkwireguard.app.databinding.ObservableKeyedArrayList
+import com.mifawg.forkwireguard.app.model.ApplicationData
+import com.mifawg.forkwireguard.app.util.ErrorMessages
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

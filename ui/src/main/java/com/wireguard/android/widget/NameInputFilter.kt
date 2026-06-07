@@ -2,12 +2,12 @@
  * Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.wireguard.android.widget
+package com.mifawg.forkwireguard.app.widget
 
 import android.text.InputFilter
 import android.text.SpannableStringBuilder
 import android.text.Spanned
-import com.wireguard.android.backend.Tunnel
+import com.mifawg.forkwireguard.app.backend.Tunnel
 
 /**
  * InputFilter for entering WireGuard configuration names (Linux interface names).

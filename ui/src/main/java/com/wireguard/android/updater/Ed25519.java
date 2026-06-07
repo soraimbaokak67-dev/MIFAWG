@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.wireguard.android.updater;
+package com.mifawg.forkwireguard.app.updater;
 
 import java.math.BigInteger;
 import java.security.GeneralSecurityException;

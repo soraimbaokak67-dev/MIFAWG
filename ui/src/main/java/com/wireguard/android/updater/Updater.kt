@@ -2,7 +2,7 @@
  * Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.wireguard.android.updater
+package com.mifawg.forkwireguard.app.updater
 
 import android.Manifest
 import android.app.PendingIntent
@@ -17,11 +17,11 @@ import android.util.Base64
 import android.util.Log
 import androidx.core.content.ContextCompat
 import androidx.core.content.IntentCompat
-import com.wireguard.android.Application
-import com.wireguard.android.BuildConfig
-import com.wireguard.android.activity.MainActivity
-import com.wireguard.android.util.UserKnobs
-import com.wireguard.android.util.applicationScope
+import com.mifawg.forkwireguard.app.Application
+import com.mifawg.forkwireguard.app.BuildConfig
+import com.mifawg.forkwireguard.app.activity.MainActivity
+import com.mifawg.forkwireguard.app.util.UserKnobs
+import com.mifawg.forkwireguard.app.util.applicationScope
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

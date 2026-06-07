@@ -2,16 +2,16 @@
  * Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.wireguard.android.util
+package com.mifawg.forkwireguard.app.util
 
 import android.content.res.Resources
 import android.os.RemoteException
 import com.google.zxing.ChecksumException
 import com.google.zxing.NotFoundException
-import com.wireguard.android.Application
-import com.wireguard.android.R
-import com.wireguard.android.backend.BackendException
-import com.wireguard.android.util.RootShell.RootShellException
+import com.mifawg.forkwireguard.app.Application
+import com.mifawg.forkwireguard.app.R
+import com.mifawg.forkwireguard.app.backend.BackendException
+import com.mifawg.forkwireguard.app.util.RootShell.RootShellException
 import com.wireguard.config.BadConfigException
 import com.wireguard.config.InetEndpoint
 import com.wireguard.config.InetNetwork

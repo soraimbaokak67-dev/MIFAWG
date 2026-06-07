@@ -2,7 +2,7 @@
  * Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.wireguard.android
+package com.mifawg.forkwireguard.app
 
 import android.app.PendingIntent
 import android.content.Intent
@@ -19,12 +19,12 @@ import android.util.Log
 import androidx.annotation.RequiresApi
 import androidx.databinding.Observable
 import androidx.databinding.Observable.OnPropertyChangedCallback
-import com.wireguard.android.activity.MainActivity
-import com.wireguard.android.activity.TunnelToggleActivity
-import com.wireguard.android.backend.Tunnel
-import com.wireguard.android.model.ObservableTunnel
-import com.wireguard.android.util.applicationScope
-import com.wireguard.android.widget.SlashDrawable
+import com.mifawg.forkwireguard.app.activity.MainActivity
+import com.mifawg.forkwireguard.app.activity.TunnelToggleActivity
+import com.mifawg.forkwireguard.app.backend.Tunnel
+import com.mifawg.forkwireguard.app.model.ObservableTunnel
+import com.mifawg.forkwireguard.app.util.applicationScope
+import com.mifawg.forkwireguard.app.widget.SlashDrawable
 import kotlinx.coroutines.launch
 
 /**

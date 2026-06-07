@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.wireguard.android.backend;
+package com.mifawg.forkwireguard.app.backend;
 
 import android.content.Context;
 import android.util.Log;
 import android.util.Pair;
 
-import com.wireguard.android.backend.BackendException.Reason;
-import com.wireguard.android.backend.Tunnel.State;
-import com.wireguard.android.util.RootShell;
-import com.wireguard.android.util.ToolsInstaller;
+import com.mifawg.forkwireguard.app.backend.BackendException.Reason;
+import com.mifawg.forkwireguard.app.backend.Tunnel.State;
+import com.mifawg.forkwireguard.app.util.RootShell;
+import com.mifawg.forkwireguard.app.util.ToolsInstaller;
 import com.wireguard.config.Config;
 import com.wireguard.crypto.Key;
 import com.wireguard.util.NonNullForAll;

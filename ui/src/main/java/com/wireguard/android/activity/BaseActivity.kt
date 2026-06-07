@@ -2,15 +2,15 @@
  * Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.wireguard.android.activity
+package com.mifawg.forkwireguard.app.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.CallbackRegistry
 import androidx.databinding.CallbackRegistry.NotifierCallback
 import androidx.lifecycle.lifecycleScope
-import com.wireguard.android.Application
-import com.wireguard.android.model.ObservableTunnel
+import com.mifawg.forkwireguard.app.Application
+import com.mifawg.forkwireguard.app.model.ObservableTunnel
 import kotlinx.coroutines.launch
 
 /**

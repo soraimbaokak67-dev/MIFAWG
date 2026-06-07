@@ -2,7 +2,7 @@
  * Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.wireguard.android
+package com.mifawg.forkwireguard.app
 
 import android.content.Context
 import android.content.Intent
@@ -17,16 +17,16 @@ import androidx.datastore.preferences.core.PreferenceDataStoreFactory
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStoreFile
 import com.google.android.material.color.DynamicColors
-import com.wireguard.android.backend.Backend
-import com.wireguard.android.backend.GoBackend
-import com.wireguard.android.backend.WgQuickBackend
-import com.wireguard.android.configStore.FileConfigStore
-import com.wireguard.android.model.TunnelManager
-import com.wireguard.android.updater.Updater
-import com.wireguard.android.util.RootShell
-import com.wireguard.android.util.ToolsInstaller
-import com.wireguard.android.util.UserKnobs
-import com.wireguard.android.util.applicationScope
+import com.mifawg.forkwireguard.app.backend.Backend
+import com.mifawg.forkwireguard.app.backend.GoBackend
+import com.mifawg.forkwireguard.app.backend.WgQuickBackend
+import com.mifawg.forkwireguard.app.configStore.FileConfigStore
+import com.mifawg.forkwireguard.app.model.TunnelManager
+import com.mifawg.forkwireguard.app.updater.Updater
+import com.mifawg.forkwireguard.app.util.RootShell
+import com.mifawg.forkwireguard.app.util.ToolsInstaller
+import com.mifawg.forkwireguard.app.util.UserKnobs
+import com.mifawg.forkwireguard.app.util.applicationScope
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

@@ -2,7 +2,7 @@
  * Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.wireguard.android.activity
+package com.mifawg.forkwireguard.app.activity
 
 import android.content.ComponentName
 import android.os.Build
@@ -14,12 +14,12 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
-import com.wireguard.android.Application
-import com.wireguard.android.QuickTileService
-import com.wireguard.android.R
-import com.wireguard.android.backend.GoBackend
-import com.wireguard.android.backend.Tunnel
-import com.wireguard.android.util.ErrorMessages
+import com.mifawg.forkwireguard.app.Application
+import com.mifawg.forkwireguard.app.QuickTileService
+import com.mifawg.forkwireguard.app.R
+import com.mifawg.forkwireguard.app.backend.GoBackend
+import com.mifawg.forkwireguard.app.backend.Tunnel
+import com.mifawg.forkwireguard.app.util.ErrorMessages
 import kotlinx.coroutines.launch
 
 class TunnelToggleActivity : AppCompatActivity() {

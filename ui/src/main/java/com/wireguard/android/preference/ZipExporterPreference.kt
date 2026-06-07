@@ -2,21 +2,21 @@
  * Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.wireguard.android.preference
+package com.mifawg.forkwireguard.app.preference
 
 import android.content.Context
 import android.util.AttributeSet
 import android.util.Log
 import androidx.preference.Preference
 import com.google.android.material.snackbar.Snackbar
-import com.wireguard.android.Application
-import com.wireguard.android.R
-import com.wireguard.android.util.AdminKnobs
-import com.wireguard.android.util.BiometricAuthenticator
-import com.wireguard.android.util.DownloadsFileSaver
-import com.wireguard.android.util.ErrorMessages
-import com.wireguard.android.util.activity
-import com.wireguard.android.util.lifecycleScope
+import com.mifawg.forkwireguard.app.Application
+import com.mifawg.forkwireguard.app.R
+import com.mifawg.forkwireguard.app.util.AdminKnobs
+import com.mifawg.forkwireguard.app.util.BiometricAuthenticator
+import com.mifawg.forkwireguard.app.util.DownloadsFileSaver
+import com.mifawg.forkwireguard.app.util.ErrorMessages
+import com.mifawg.forkwireguard.app.util.activity
+import com.mifawg.forkwireguard.app.util.lifecycleScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.async

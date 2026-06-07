@@ -2,7 +2,7 @@
  * Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.wireguard.android.preference
+package com.mifawg.forkwireguard.app.preference
 
 import android.content.Context
 import android.content.Intent
@@ -10,14 +10,14 @@ import android.util.AttributeSet
 import android.util.Log
 import androidx.lifecycle.lifecycleScope
 import androidx.preference.Preference
-import com.wireguard.android.Application
-import com.wireguard.android.R
-import com.wireguard.android.activity.SettingsActivity
-import com.wireguard.android.backend.Tunnel
-import com.wireguard.android.backend.WgQuickBackend
-import com.wireguard.android.util.UserKnobs
-import com.wireguard.android.util.activity
-import com.wireguard.android.util.lifecycleScope
+import com.mifawg.forkwireguard.app.Application
+import com.mifawg.forkwireguard.app.R
+import com.mifawg.forkwireguard.app.activity.SettingsActivity
+import com.mifawg.forkwireguard.app.backend.Tunnel
+import com.mifawg.forkwireguard.app.backend.WgQuickBackend
+import com.mifawg.forkwireguard.app.util.UserKnobs
+import com.mifawg.forkwireguard.app.util.activity
+import com.mifawg.forkwireguard.app.util.lifecycleScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.async

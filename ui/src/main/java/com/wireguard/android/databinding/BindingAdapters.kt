@@ -2,7 +2,7 @@
  * Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.wireguard.android.databinding
+package com.mifawg.forkwireguard.app.databinding
 
 import android.text.InputFilter
 import android.view.LayoutInflater
@@ -18,12 +18,12 @@ import androidx.databinding.adapters.ListenerUtil
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.wireguard.android.BR
-import com.wireguard.android.R
-import com.wireguard.android.databinding.ObservableKeyedRecyclerViewAdapter.RowConfigurationHandler
-import com.wireguard.android.widget.ToggleSwitch
-import com.wireguard.android.widget.ToggleSwitch.OnBeforeCheckedChangeListener
-import com.wireguard.android.widget.TvCardView
+import com.mifawg.forkwireguard.app.BR
+import com.mifawg.forkwireguard.app.R
+import com.mifawg.forkwireguard.app.databinding.ObservableKeyedRecyclerViewAdapter.RowConfigurationHandler
+import com.mifawg.forkwireguard.app.widget.ToggleSwitch
+import com.mifawg.forkwireguard.app.widget.ToggleSwitch.OnBeforeCheckedChangeListener
+import com.mifawg.forkwireguard.app.widget.TvCardView
 import com.wireguard.config.Attribute
 import com.wireguard.config.InetNetwork
 import java.net.InetAddress

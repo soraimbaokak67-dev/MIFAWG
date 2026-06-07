@@ -2,7 +2,7 @@
  * Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.wireguard.android.fragment
+package com.mifawg.forkwireguard.app.fragment
 
 import android.content.Context
 import android.util.Log
@@ -14,16 +14,16 @@ import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import com.google.android.material.snackbar.Snackbar
-import com.wireguard.android.Application
-import com.wireguard.android.R
-import com.wireguard.android.activity.BaseActivity
-import com.wireguard.android.activity.BaseActivity.OnSelectedTunnelChangedListener
-import com.wireguard.android.backend.GoBackend
-import com.wireguard.android.backend.Tunnel
-import com.wireguard.android.databinding.TunnelDetailFragmentBinding
-import com.wireguard.android.databinding.TunnelListItemBinding
-import com.wireguard.android.model.ObservableTunnel
-import com.wireguard.android.util.ErrorMessages
+import com.mifawg.forkwireguard.app.Application
+import com.mifawg.forkwireguard.app.R
+import com.mifawg.forkwireguard.app.activity.BaseActivity
+import com.mifawg.forkwireguard.app.activity.BaseActivity.OnSelectedTunnelChangedListener
+import com.mifawg.forkwireguard.app.backend.GoBackend
+import com.mifawg.forkwireguard.app.backend.Tunnel
+import com.mifawg.forkwireguard.app.databinding.TunnelDetailFragmentBinding
+import com.mifawg.forkwireguard.app.databinding.TunnelListItemBinding
+import com.mifawg.forkwireguard.app.model.ObservableTunnel
+import com.mifawg.forkwireguard.app.util.ErrorMessages
 import kotlinx.coroutines.launch
 
 /**

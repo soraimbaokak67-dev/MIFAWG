@@ -9,21 +9,21 @@
 
         <import type="android.view.View" />
 
-        <import type="com.wireguard.android.widget.KeyInputFilter" />
+        <import type="com.mifawg.forkwireguard.app.widget.KeyInputFilter" />
 
-        <import type="com.wireguard.android.databinding.BindingAdapters" />
+        <import type="com.mifawg.forkwireguard.app.databinding.BindingAdapters" />
 
         <variable
             name="collection"
-            type="androidx.databinding.ObservableList&lt;com.wireguard.android.viewmodel.PeerProxy&gt;" />
+            type="androidx.databinding.ObservableList&lt;com.mifawg.forkwireguard.app.viewmodel.PeerProxy&gt;" />
 
         <variable
             name="item"
-            type="com.wireguard.android.viewmodel.PeerProxy" />
+            type="com.mifawg.forkwireguard.app.viewmodel.PeerProxy" />
 
         <variable
             name="fragment"
-            type="com.wireguard.android.fragment.TunnelEditorFragment" />
+            type="com.mifawg.forkwireguard.app.fragment.TunnelEditorFragment" />
     </data>
 
     <com.google.android.material.card.MaterialCardView

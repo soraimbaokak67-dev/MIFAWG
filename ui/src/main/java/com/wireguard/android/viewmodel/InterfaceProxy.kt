@@ -2,7 +2,7 @@
  * Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.wireguard.android.viewmodel
+package com.mifawg.forkwireguard.app.viewmodel
 
 import android.os.Parcel
 import android.os.Parcelable
@@ -10,7 +10,7 @@ import androidx.databinding.BaseObservable
 import androidx.databinding.Bindable
 import androidx.databinding.ObservableArrayList
 import androidx.databinding.ObservableList
-import com.wireguard.android.BR
+import com.mifawg.forkwireguard.app.BR
 import com.wireguard.config.Attribute
 import com.wireguard.config.BadConfigException
 import com.wireguard.config.Interface

@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.wireguard.android.widget
+package com.mifawg.forkwireguard.app.widget
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import com.google.android.material.card.MaterialCardView
-import com.wireguard.android.R
+import com.mifawg.forkwireguard.app.R
 
 class TvCardView(context: Context?, attrs: AttributeSet?) : MaterialCardView(context, attrs) {
     var isUp: Boolean = false

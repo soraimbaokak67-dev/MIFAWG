@@ -2,7 +2,7 @@
  * Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.wireguard.android.util
+package com.mifawg.forkwireguard.app.util
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -12,7 +12,7 @@ import android.widget.TextView
 import androidx.core.content.getSystemService
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputEditText
-import com.wireguard.android.R
+import com.mifawg.forkwireguard.app.R
 
 /**
  * Standalone utilities for interacting with the system clipboard.

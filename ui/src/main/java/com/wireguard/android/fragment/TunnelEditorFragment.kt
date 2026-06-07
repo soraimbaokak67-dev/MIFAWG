@@ -2,7 +2,7 @@
  * Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.wireguard.android.fragment
+package com.mifawg.forkwireguard.app.fragment
 
 import android.content.Context
 import android.os.Bundle
@@ -23,15 +23,15 @@ import androidx.core.view.MenuProvider
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import com.google.android.material.snackbar.Snackbar
-import com.wireguard.android.Application
-import com.wireguard.android.R
-import com.wireguard.android.backend.Tunnel
-import com.wireguard.android.databinding.TunnelEditorFragmentBinding
-import com.wireguard.android.model.ObservableTunnel
-import com.wireguard.android.util.AdminKnobs
-import com.wireguard.android.util.BiometricAuthenticator
-import com.wireguard.android.util.ErrorMessages
-import com.wireguard.android.viewmodel.ConfigProxy
+import com.mifawg.forkwireguard.app.Application
+import com.mifawg.forkwireguard.app.R
+import com.mifawg.forkwireguard.app.backend.Tunnel
+import com.mifawg.forkwireguard.app.databinding.TunnelEditorFragmentBinding
+import com.mifawg.forkwireguard.app.model.ObservableTunnel
+import com.mifawg.forkwireguard.app.util.AdminKnobs
+import com.mifawg.forkwireguard.app.util.BiometricAuthenticator
+import com.mifawg.forkwireguard.app.util.ErrorMessages
+import com.mifawg.forkwireguard.app.viewmodel.ConfigProxy
 import com.wireguard.config.Config
 import kotlinx.coroutines.launch
 

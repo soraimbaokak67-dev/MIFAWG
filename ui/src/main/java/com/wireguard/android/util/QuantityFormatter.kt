@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.wireguard.android.util
+package com.mifawg.forkwireguard.app.util
 
 import android.icu.text.ListFormatter
 import android.icu.text.MeasureFormat
@@ -11,8 +11,8 @@ import android.icu.text.RelativeDateTimeFormatter
 import android.icu.util.Measure
 import android.icu.util.MeasureUnit
 import android.os.Build
-import com.wireguard.android.Application
-import com.wireguard.android.R
+import com.mifawg.forkwireguard.app.Application
+import com.mifawg.forkwireguard.app.R
 import java.util.Locale
 import kotlin.time.Duration.Companion.seconds
 

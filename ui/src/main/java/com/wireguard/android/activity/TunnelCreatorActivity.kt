@@ -2,11 +2,11 @@
  * Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.wireguard.android.activity
+package com.mifawg.forkwireguard.app.activity
 
 import android.os.Bundle
-import com.wireguard.android.R
-import com.wireguard.android.model.ObservableTunnel
+import com.mifawg.forkwireguard.app.R
+import com.mifawg.forkwireguard.app.model.ObservableTunnel
 
 /**
  * Standalone activity for creating tunnels.

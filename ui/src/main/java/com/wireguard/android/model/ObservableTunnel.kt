@@ -2,16 +2,16 @@
  * Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.wireguard.android.model
+package com.mifawg.forkwireguard.app.model
 
 import android.util.Log
 import androidx.databinding.BaseObservable
 import androidx.databinding.Bindable
-import com.wireguard.android.BR
-import com.wireguard.android.backend.Statistics
-import com.wireguard.android.backend.Tunnel
-import com.wireguard.android.databinding.Keyed
-import com.wireguard.android.util.applicationScope
+import com.mifawg.forkwireguard.app.BR
+import com.mifawg.forkwireguard.app.backend.Statistics
+import com.mifawg.forkwireguard.app.backend.Tunnel
+import com.mifawg.forkwireguard.app.databinding.Keyed
+import com.mifawg.forkwireguard.app.util.applicationScope
 import com.wireguard.config.Config
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

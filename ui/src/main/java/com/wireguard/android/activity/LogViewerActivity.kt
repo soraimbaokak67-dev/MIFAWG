@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.wireguard.android.activity
+package com.mifawg.forkwireguard.app.activity
 
 import android.content.ClipDescription.compareMimeTypes
 import android.content.ContentProvider
@@ -36,12 +36,12 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textview.MaterialTextView
-import com.wireguard.android.BuildConfig
-import com.wireguard.android.R
-import com.wireguard.android.databinding.LogViewerActivityBinding
-import com.wireguard.android.util.DownloadsFileSaver
-import com.wireguard.android.util.ErrorMessages
-import com.wireguard.android.util.resolveAttribute
+import com.mifawg.forkwireguard.app.BuildConfig
+import com.mifawg.forkwireguard.app.R
+import com.mifawg.forkwireguard.app.databinding.LogViewerActivityBinding
+import com.mifawg.forkwireguard.app.util.DownloadsFileSaver
+import com.mifawg.forkwireguard.app.util.ErrorMessages
+import com.mifawg.forkwireguard.app.util.resolveAttribute
 import com.wireguard.crypto.KeyPair
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

@@ -2,7 +2,7 @@
  * Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.wireguard.android.model
+package com.mifawg.forkwireguard.app.model
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -12,18 +12,18 @@ import android.util.Log
 import android.widget.Toast
 import androidx.databinding.BaseObservable
 import androidx.databinding.Bindable
-import com.wireguard.android.Application.Companion.get
-import com.wireguard.android.Application.Companion.getBackend
-import com.wireguard.android.Application.Companion.getTunnelManager
-import com.wireguard.android.BR
-import com.wireguard.android.R
-import com.wireguard.android.backend.Statistics
-import com.wireguard.android.backend.Tunnel
-import com.wireguard.android.configStore.ConfigStore
-import com.wireguard.android.databinding.ObservableSortedKeyedArrayList
-import com.wireguard.android.util.ErrorMessages
-import com.wireguard.android.util.UserKnobs
-import com.wireguard.android.util.applicationScope
+import com.mifawg.forkwireguard.app.Application.Companion.get
+import com.mifawg.forkwireguard.app.Application.Companion.getBackend
+import com.mifawg.forkwireguard.app.Application.Companion.getTunnelManager
+import com.mifawg.forkwireguard.app.BR
+import com.mifawg.forkwireguard.app.R
+import com.mifawg.forkwireguard.app.backend.Statistics
+import com.mifawg.forkwireguard.app.backend.Tunnel
+import com.mifawg.forkwireguard.app.configStore.ConfigStore
+import com.mifawg.forkwireguard.app.databinding.ObservableSortedKeyedArrayList
+import com.mifawg.forkwireguard.app.util.ErrorMessages
+import com.mifawg.forkwireguard.app.util.UserKnobs
+import com.mifawg.forkwireguard.app.util.applicationScope
 import com.wireguard.config.Config
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.Dispatchers
@@ -217,15 +217,15 @@ class TunnelManager(private val configStore: ConfigStore) : BaseObservable() {
                 val manager = getTunnelManager()
                 if (intent == null) return@launch
                 val action = intent.action ?: return@launch
-                if ("com.wireguard.android.action.REFRESH_TUNNEL_STATES" == action) {
+                if ("com.mifawg.forkwireguard.app.action.REFRESH_TUNNEL_STATES" == action) {
                     manager.refreshTunnelStates()
                     return@launch
                 }
                 if (!UserKnobs.allowRemoteControlIntents.first())
                     return@launch
                 val state = when (action) {
-                    "com.wireguard.android.action.SET_TUNNEL_UP" -> Tunnel.State.UP
-                    "com.wireguard.android.action.SET_TUNNEL_DOWN" -> Tunnel.State.DOWN
+                    "com.mifawg.forkwireguard.app.action.SET_TUNNEL_UP" -> Tunnel.State.UP
+                    "com.mifawg.forkwireguard.app.action.SET_TUNNEL_DOWN" -> Tunnel.State.DOWN
                     else -> return@launch
                 }
                 val tunnelName = intent.getStringExtra("tunnel") ?: return@launch

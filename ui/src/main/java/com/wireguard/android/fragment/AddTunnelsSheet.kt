@@ -2,7 +2,7 @@
  * Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.wireguard.android.fragment
+package com.mifawg.forkwireguard.app.fragment
 
 import android.content.pm.PackageManager
 import android.graphics.drawable.GradientDrawable
@@ -16,8 +16,8 @@ import androidx.fragment.app.setFragmentResult
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import com.wireguard.android.R
-import com.wireguard.android.util.resolveAttribute
+import com.mifawg.forkwireguard.app.R
+import com.mifawg.forkwireguard.app.util.resolveAttribute
 
 class AddTunnelsSheet : BottomSheetDialogFragment() {
 

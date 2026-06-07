@@ -3,17 +3,17 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.wireguard.android.util
+package com.mifawg.forkwireguard.app.util
 
 import android.content.ContentResolver
 import android.net.Uri
 import android.provider.OpenableColumns
 import android.util.Log
 import androidx.fragment.app.FragmentManager
-import com.wireguard.android.Application
-import com.wireguard.android.R
-import com.wireguard.android.fragment.ConfigNamingDialogFragment
-import com.wireguard.android.model.ObservableTunnel
+import com.mifawg.forkwireguard.app.Application
+import com.mifawg.forkwireguard.app.R
+import com.mifawg.forkwireguard.app.fragment.ConfigNamingDialogFragment
+import com.mifawg.forkwireguard.app.model.ObservableTunnel
 import com.wireguard.config.Config
 import kotlinx.coroutines.Deferred
 import kotlinx.coroutines.Dispatchers

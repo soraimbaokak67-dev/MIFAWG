@@ -2,7 +2,7 @@
  * Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.wireguard.android.activity
+package com.mifawg.forkwireguard.app.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -15,10 +15,10 @@ import androidx.appcompat.app.ActionBar
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import androidx.fragment.app.commit
-import com.wireguard.android.R
-import com.wireguard.android.fragment.TunnelDetailFragment
-import com.wireguard.android.fragment.TunnelEditorFragment
-import com.wireguard.android.model.ObservableTunnel
+import com.mifawg.forkwireguard.app.R
+import com.mifawg.forkwireguard.app.fragment.TunnelDetailFragment
+import com.mifawg.forkwireguard.app.fragment.TunnelEditorFragment
+import com.mifawg.forkwireguard.app.model.ObservableTunnel
 
 /**
  * CRUD interface for WireGuard tunnels. This activity serves as the main entry point to the

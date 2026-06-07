@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.wireguard.android.activity
+package com.mifawg.forkwireguard.app.activity
 
 import android.Manifest
 import android.content.ActivityNotFoundException
@@ -34,22 +34,22 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.GridLayoutManager.SpanSizeLookup
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.wireguard.android.Application
-import com.wireguard.android.R
-import com.wireguard.android.backend.GoBackend
-import com.wireguard.android.backend.Tunnel
-import com.wireguard.android.databinding.Keyed
-import com.wireguard.android.databinding.ObservableKeyedArrayList
-import com.wireguard.android.databinding.ObservableKeyedRecyclerViewAdapter
-import com.wireguard.android.databinding.TvActivityBinding
-import com.wireguard.android.databinding.TvFileListItemBinding
-import com.wireguard.android.databinding.TvTunnelListItemBinding
-import com.wireguard.android.model.ObservableTunnel
-import com.wireguard.android.util.ErrorMessages
-import com.wireguard.android.util.QuantityFormatter
-import com.wireguard.android.util.TunnelImporter
-import com.wireguard.android.util.UserKnobs
-import com.wireguard.android.util.applicationScope
+import com.mifawg.forkwireguard.app.Application
+import com.mifawg.forkwireguard.app.R
+import com.mifawg.forkwireguard.app.backend.GoBackend
+import com.mifawg.forkwireguard.app.backend.Tunnel
+import com.mifawg.forkwireguard.app.databinding.Keyed
+import com.mifawg.forkwireguard.app.databinding.ObservableKeyedArrayList
+import com.mifawg.forkwireguard.app.databinding.ObservableKeyedRecyclerViewAdapter
+import com.mifawg.forkwireguard.app.databinding.TvActivityBinding
+import com.mifawg.forkwireguard.app.databinding.TvFileListItemBinding
+import com.mifawg.forkwireguard.app.databinding.TvTunnelListItemBinding
+import com.mifawg.forkwireguard.app.model.ObservableTunnel
+import com.mifawg.forkwireguard.app.util.ErrorMessages
+import com.mifawg.forkwireguard.app.util.QuantityFormatter
+import com.mifawg.forkwireguard.app.util.TunnelImporter
+import com.mifawg.forkwireguard.app.util.UserKnobs
+import com.mifawg.forkwireguard.app.util.applicationScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

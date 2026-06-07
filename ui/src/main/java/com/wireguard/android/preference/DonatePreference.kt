@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.wireguard.android.preference
+package com.mifawg.forkwireguard.app.preference
 
 import android.content.Context
 import android.content.Intent
@@ -12,9 +12,9 @@ import android.util.AttributeSet
 import android.widget.Toast
 import androidx.preference.Preference
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.wireguard.android.R
-import com.wireguard.android.updater.Updater
-import com.wireguard.android.util.ErrorMessages
+import com.mifawg.forkwireguard.app.R
+import com.mifawg.forkwireguard.app.updater.Updater
+import com.mifawg.forkwireguard.app.util.ErrorMessages
 import androidx.core.net.toUri
 
 class DonatePreference(context: Context, attrs: AttributeSet?) : Preference(context, attrs) {

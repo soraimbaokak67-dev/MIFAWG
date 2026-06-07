@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.wireguard.android.backend;
+package com.mifawg.forkwireguard.app.backend;
 
 import com.wireguard.config.Config;
 import com.wireguard.util.NonNullForAll;

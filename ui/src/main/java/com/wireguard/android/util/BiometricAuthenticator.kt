@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.wireguard.android.util
+package com.mifawg.forkwireguard.app.util
 
 import android.os.Handler
 import android.os.Looper
@@ -13,7 +13,7 @@ import androidx.biometric.BiometricManager
 import androidx.biometric.BiometricManager.Authenticators
 import androidx.biometric.BiometricPrompt
 import androidx.fragment.app.Fragment
-import com.wireguard.android.R
+import com.mifawg.forkwireguard.app.R
 
 
 object BiometricAuthenticator {

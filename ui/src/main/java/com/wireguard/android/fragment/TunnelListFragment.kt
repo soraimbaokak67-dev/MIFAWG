@@ -2,7 +2,7 @@
  * Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.wireguard.android.fragment
+package com.mifawg.forkwireguard.app.fragment
 
 import android.content.Intent
 import android.content.res.Resources
@@ -26,18 +26,18 @@ import com.google.android.material.snackbar.Snackbar
 import com.google.zxing.qrcode.QRCodeReader
 import com.journeyapps.barcodescanner.ScanContract
 import com.journeyapps.barcodescanner.ScanOptions
-import com.wireguard.android.Application
-import com.wireguard.android.R
-import com.wireguard.android.activity.TunnelCreatorActivity
-import com.wireguard.android.databinding.ObservableKeyedRecyclerViewAdapter.RowConfigurationHandler
-import com.wireguard.android.databinding.TunnelListFragmentBinding
-import com.wireguard.android.databinding.TunnelListItemBinding
-import com.wireguard.android.model.ObservableTunnel
-import com.wireguard.android.updater.SnackbarUpdateShower
-import com.wireguard.android.util.ErrorMessages
-import com.wireguard.android.util.QrCodeFromFileScanner
-import com.wireguard.android.util.TunnelImporter
-import com.wireguard.android.widget.MultiselectableRelativeLayout
+import com.mifawg.forkwireguard.app.Application
+import com.mifawg.forkwireguard.app.R
+import com.mifawg.forkwireguard.app.activity.TunnelCreatorActivity
+import com.mifawg.forkwireguard.app.databinding.ObservableKeyedRecyclerViewAdapter.RowConfigurationHandler
+import com.mifawg.forkwireguard.app.databinding.TunnelListFragmentBinding
+import com.mifawg.forkwireguard.app.databinding.TunnelListItemBinding
+import com.mifawg.forkwireguard.app.model.ObservableTunnel
+import com.mifawg.forkwireguard.app.updater.SnackbarUpdateShower
+import com.mifawg.forkwireguard.app.util.ErrorMessages
+import com.mifawg.forkwireguard.app.util.QrCodeFromFileScanner
+import com.mifawg.forkwireguard.app.util.TunnelImporter
+import com.mifawg.forkwireguard.app.widget.MultiselectableRelativeLayout
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll

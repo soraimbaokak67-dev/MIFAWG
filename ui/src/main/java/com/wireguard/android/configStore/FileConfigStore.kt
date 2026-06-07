@@ -2,11 +2,11 @@
  * Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.wireguard.android.configStore
+package com.mifawg.forkwireguard.app.configStore
 
 import android.content.Context
 import android.util.Log
-import com.wireguard.android.R
+import com.mifawg.forkwireguard.app.R
 import com.wireguard.config.BadConfigException
 import com.wireguard.config.Config
 import java.io.File

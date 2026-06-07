@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.wireguard.android.util
+package com.mifawg.forkwireguard.app.util
 
 import android.content.RestrictionsManager
 import androidx.core.content.getSystemService
-import com.wireguard.android.Application
+import com.mifawg.forkwireguard.app.Application
 
 object AdminKnobs {
     private val restrictions: RestrictionsManager? = Application.get().getSystemService()
