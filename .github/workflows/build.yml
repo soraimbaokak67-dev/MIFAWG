@@ -20,15 +20,16 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
 
-      - name: Install NDK 26
+      - name: Install NDK and CMake
         run: |
-          echo "y" | $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager "ndk;26.1.10909125"
+          echo "y" | $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager \
+            "ndk;26.1.10909125" \
+            "cmake;3.31.6"
 
       - name: Build Debug APK
         run: |
           chmod +x gradlew
-          ./gradlew assembleDebug \
-            -Pandroid.ndkVersion=26.1.10909125
+          ./gradlew assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
