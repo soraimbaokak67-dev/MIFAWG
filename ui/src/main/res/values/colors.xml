@@ -65,8 +65,3 @@
     <color name="md_theme_dark_outlineVariant">#1A1A1A</color>
     <color name="md_theme_dark_scrim">#000000</color>
 </resources>
-    <color name="m3_surface_container">#000000</color>
-    <color name="m3_surface_container_high">#000000</color>
-    <color name="m3_surface_container_highest">#000000</color>
-    <color name="m3_surface_container_low">#000000</color>
-    <color name="m3_surface_container_lowest">#000000</color>
