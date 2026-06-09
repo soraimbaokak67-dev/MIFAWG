@@ -5,7 +5,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <style name="WireGuardTheme.Toolbar" parent="Widget.Material3.Toolbar">
-        <item name="android:background">?attr/colorSurface</item>
+        <item name="android:background">#000000</item>
     </style>
 
     <style name="AppThemeBase" parent="WireGuardTheme">
@@ -21,6 +21,7 @@
 
     <style name="WireGuardTheme.MaterialCardView" parent="Widget.Material3.CardView.Elevated">
         <item name="cornerRadius">4dp</item>
+        <item name="cardBackgroundColor">#000000</item>
         <item name="contentPadding">8dp</item>
     </style>
 
