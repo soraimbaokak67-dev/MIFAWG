@@ -3,7 +3,7 @@
   ~ SPDX-License-Identifier: Apache-2.0
   -->
 <resources>
-    <style name="WireGuardTheme" parent="Theme.Material3.DayNight">
+    <style name="WireGuardTheme" parent="Theme.Material3.Dark">
         <item name="colorPrimary">@color/md_theme_dark_primary</item>
         <item name="colorOnPrimary">@color/md_theme_dark_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_dark_primaryContainer</item>
@@ -34,5 +34,10 @@
     <item name="android:statusBarColor">#000000</item>
     <item name="android:navigationBarColor">#000000</item>
     <item name="android:windowBackground">#000000</item>
+    <item name="colorSurfaceContainer">#000000</item>
+    <item name="colorSurfaceContainerLow">#000000</item>
+    <item name="colorSurfaceContainerHigh">#000000</item>
+    <item name="colorSurfaceContainerHighest">#0A0A0A</item>
+    <item name="elevationOverlayEnabled">false</item>
 </style>
 </resources>
