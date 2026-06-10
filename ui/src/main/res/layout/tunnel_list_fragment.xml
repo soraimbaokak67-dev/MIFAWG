@@ -80,7 +80,7 @@
             android:layout_margin="@dimen/fab_margin"
             android:nextFocusUp="@id/tunnel_list"
             app:srcCompat="@drawable/ic_action_add_white"
-            app:backgroundTint="#1a73e8"
+            app:backgroundTint="#00D4E4"
             app:tint="#000000" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
