@@ -32,10 +32,10 @@ jobs:
         run: |
           echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > mifawg.jks
 
-      - name: Build Release APK
+      - name: Build Debug APK
         run: |
           chmod +x gradlew
-          ./gradlew assembleRelease \
+          ./gradlew assembleDebug \
             -Pandroid.injected.signing.store.file=$GITHUB_WORKSPACE/mifawg.jks \
             -Pandroid.injected.signing.store.password=${{ secrets.STORE_PASSWORD }} \
             -Pandroid.injected.signing.key.alias=${{ secrets.KEY_ALIAS }} \
@@ -44,5 +44,5 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: MifaWG-release
-          path: ui/build/outputs/apk/release/*.apk
+          name: MifaWG-debug
+          path: ui/build/outputs/apk/debug/*.apk
