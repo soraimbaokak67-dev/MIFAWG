@@ -72,7 +72,19 @@
                 android:textSize="20sp" />
         </LinearLayout>
 
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
+        <com.google.android.material.floatingactionbutton.extended.ExtendedFloatingActionButton
+            android:id="@+id/warp_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="@dimen/fab_margin"
+            android:layout_marginBottom="88dp"
+            android:text="✦ Сгенерировать WARP"
+            android:textColor="#000000"
+            app:backgroundTint="#00D4E4"
+            app:iconTint="#000000" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/create_fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
