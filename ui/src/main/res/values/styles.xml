@@ -25,9 +25,9 @@
         <item name="contentPadding">8dp</item>
     </style>
 
-    <style name="WireGuardTheme.BottomSheetDialog" parent="ThemeOverlay.Material3.BottomSheetDialog"
+        <style name="WireGuardTheme.BottomSheetDialog" parent="ThemeOverlay.Material3.BottomSheetDialog">
         <item name="android:background">#000000</item>
-        <item name="backgroundTint">#000000</item>>
+        <item name="backgroundTint">#000000</item>
         <item name="android:windowIsFloating">false</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
     </style>
